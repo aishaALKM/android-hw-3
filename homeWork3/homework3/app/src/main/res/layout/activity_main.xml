@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/original"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="285dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="425dp"
+        android:background="#FFFFFF"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:hint="YOUR JOB"
+        android:inputType="textPersonName"
+        android:padding="7dp"
+        android:textColor="#671E1E"
+        android:textColorHint="#477048"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="318dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="311dp"
+        android:background="#FFFFFF"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:hint="PHONE NUMBER"
+        android:inputType="number"
+        android:padding="7dp"
+        android:textColor="#671E1E"
+        android:textColorHint="#A57183"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="115dp"
+        android:background="#FFFFFF"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:hint="YOUR AGE"
+        android:inputType="number"
+        android:padding="7dp"
+        android:textColor="#671E1E"
+        android:textColorHint="#67233A"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="287dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="210dp"
+        android:background="#FFFFFF"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:padding="7dp"
+        android:textColor="#671E1E"
+        android:textColorHint="#65853F"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="285dp"
+        android:layout_height="69dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="515dp"
+        android:background="#FFFFFF"
+        android:drawablePadding="7dp"
+        android:ems="10"
+        android:hint=" FULL NAME"
+        android:inputType="textPersonName"
+        android:padding="7dp"
+        android:textColor="#671E1E"
+        android:textColorHint="#614A52"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="254dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#AF7386"
+        android:text="NEXT"
+        android:textColor="#FAF3F3"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="393dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="607dp"
+        android:text="ENTER THE FOLLOWING"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
